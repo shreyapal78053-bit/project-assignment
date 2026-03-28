@@ -1,0 +1,60 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    background-color: purple;
+}
+
+*{
+    margin: 0px;
+    padding:10px ;
+}
+/*button {
+    border-radius: 14px;
+}*/
+
+.border-radius {
+    border-radius: 16px;
+}
+
+.color-white {
+    color: white;
+}
+
+#Login {
+    background-color: rgb(206, 185, 185);
+    
+}
+
+#Submit {
+    background-color: rgb(136, 16, 16);
+}
+
+#container{
+    background-color: beige;
+    font-size: x-large;
+}
+
+/*#container:hover {
+    background-color: black;
+    color: white;
+    width: 900px;
+}*/
+
+#search:focus{
+    color: blue;
+    outline: none;
+}
+
+#terms:visited {
+    color: red;
+}
+
+#login1 :visited {
+    color: red;
+}
+
+#Paracontainer > p {
+    color: brown;
+}

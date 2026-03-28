@@ -1,0 +1,55 @@
+div{
+    position: sticky;
+    top: 100px;
+    background-color: coral;
+    color:purple;
+}
+
+#outer{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(129, 11, 104);
+    color: white;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+#outer > div {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+    right: -25px;
+    top: -25px;
+}
+
+#moon {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+#moon ::after{
+    position: absolute;
+    border-radius: 50%;
+    content: "";
+    background-color: white;
+    top: 50px;
+    height: 40px;
+    width: 40px;
+    left: 60px;
+}
+
+#moon::before{
+    position: absolute;
+    border-radius: 50%;
+    content: "";
+    background-color: white;
+    top: 100px;
+    height: 40px;
+    width: 40px;
+    left: 100px;
+}
